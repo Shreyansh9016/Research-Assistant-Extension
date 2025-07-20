@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Research Assistant</title>
+    <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>📚 Research Assistant</h1>
+            <p class="tagline">Summarize and save your research efficiently</p>
+            <button id="darkModeToggle" class="btn secondary">🌙 Toggle Dark Mode</button>
+        </header>
+
+        <section class="actions">
+            <button id="summarizeBtn" class="btn primary">Summarize Selection</button>
+        </section>
+
+        <section class="notes-section">
+            <h2>📝 Your Notes</h2>
+            <textarea id="notes" placeholder="Type or paste your notes here..."></textarea>
+            <button id="saveNotesBtn" class="btn secondary">💾 Save Notes</button>
+        </section>
+
+        <div id="loader" class="loader">⏳ Summarizing...</div>
+
+        <section id="result" class="result-area">
+            <!-- Summary result appears here -->
+        </section>
+    </div>
+
+    <script src="sidepanel.js"></script>
+</body>
+</html>
